@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /home/rupkumarpaul12g/project
 git pull origin main
 docker build -t simple-nginx /home/rupkumarpaul12g/project
 docker push kumarrup/simplilearn:simple-nginx
